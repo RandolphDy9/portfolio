@@ -3,17 +3,8 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div className="heading mb-5 mx-auto">
-      <div className="d-flex justify-content-center hr-lines">
-        <span className="accent-color mx-2">{"<"} 01. </span>
-        <span className="primary-color">
-          <b>About</b>
-        </span>
-        <span className="accent-color mx-2">{"/>"}</span>
-      </div>
       <div className="d-flex justify-content-between">
-        <div>
-
-        </div>
+        <div></div>
         <motion.div
           className="about-pic d-flex justify-content-center b-3"
           whileHover={{ scale: 1.05 }}
@@ -27,34 +18,29 @@ const About = () => {
         </motion.div>
       </div>
       <div className="content primary-color">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar ut
-        ante nec ultricies. Integer ac dignissim orci, sit amet volutpat libero.
-        Ut nec odio sem. Suspendisse ultrices nibh at sagittis egestas. Morbi
-        molestie leo dui, vel ullamcorper nunc fermentum vitae. Mauris
-        vestibulum tortor consectetur ultrices tincidunt. Suspendisse non
-        accumsan diam, eget pretium metus. Maecenas in felis a dolor facilisis
-        congue vehicula a nunc. Cras tempor non lorem eget imperdiet.
-        <br /><br />
-        Sed a arcu ex. Etiam gravida augue vel tempus fringilla. Phasellus
-        tincidunt dapibus nibh, eget sodales risus condimentum vitae. Proin
-        ligula ex, imperdiet luctus arcu sit amet, condimentum interdum purus.
-        Ut mollis tempus massa, non feugiat lorem fermentum nec. In ex diam,
-        commodo eu venenatis dictum, ornare ac dui. Maecenas cursus metus eget
-        felis pulvinar fringilla.
-        <br /><br />
-        Aliquam interdum est tortor, eget viverra quam lacinia sed. Vestibulum
-        quis placerat nibh. Suspendisse vehicula feugiat ante eu faucibus. Nulla
-        maximus justo a egestas bibendum. Pellentesque et dapibus sapien.
-        Maecenas efficitur eros accumsan, blandit orci eget, pellentesque odio.
-        Fusce ullamcorper lorem ex, eu ultrices nibh malesuada sit amet.
-        Curabitur id massa elit.
-        <br /><br />
-        Aliquam interdum est tortor, eget viverra quam lacinia sed. Vestibulum
-        quis placerat nibh. Suspendisse vehicula feugiat ante eu faucibus. Nulla
-        maximus justo a egestas bibendum. Pellentesque et dapibus sapien.
-        Maecenas efficitur eros accumsan, blandit orci eget, pellentesque odio.
-        Fusce ullamcorper lorem ex, eu ultrices nibh malesuada sit amet.
-        Curabitur id massa elit.
+        Experienced Front-end Developer with 5+ years of professional experience
+        building responsive websites and applications. Proficient in HTML, CSS,
+        JavaScript, and frameworks like React and Angular with a strong focus on
+        creating excellent user experiences and interfaces.
+        <br />
+        <br />
+        I specialize in crafting visually stunning and seamlessly functional
+        websites that captivate users. With expertise in HTML, CSS, and
+        JavaScript, as well as frameworks like React and Angular, I have
+        successfully transformed design concepts into fully responsive and
+        intuitive interfaces. Through meticulous attention to detail and a
+        user-centric approach, I deliver exceptional user experiences that
+        exceed expectations.
+        <br />
+        <br />
+        My commitment to continuous learning and staying up-to-date with
+        industry trends allows me to incorporate cutting-edge technologies and
+        best practices into my work. By utilizing agile methodologies and
+        collaborating with cross-functional teams, I consistently deliver
+        high-quality code that enhances performance and usability. Let's
+        collaborate and bring your ideas to life with a front-end experience
+        that engages and inspires users.
+        <br />
       </div>
     </div>
   );
