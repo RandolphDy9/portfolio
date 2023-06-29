@@ -47,6 +47,11 @@ function App() {
   // const textEnter = () => setCursorVariant("text");
   // const textLeave = () => setCursorVariant("default");
 
+  const handleNavigationClick = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    section?.scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <div className="app">
       <div className="page-container">
@@ -55,18 +60,26 @@ function App() {
         </h1> */}
         <Navbar />
         <Jumbotron />
-        <div className="hr-lines"></div>
-        <h1 className="primary-color mb-4">Things about me.</h1>
-        <About />
-        <div className="hr-lines"></div>
-        <h1 className="primary-color mb-4">My Work Experience.</h1>
-        <Experiences />
+        <div className="col-12 row">
+          <div className="col-12 col-md-10">
+            <div className="hr-lines"></div>
+            <h1 className="primary-color mb-4">Things about me.</h1>
+            <About id="about" />
+            <div className="hr-lines"></div>
+            <h1 className="primary-color mb-4">My Work Experience.</h1>
+            <Experiences id="experiences" />
+          </div>
+          <div className="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center sticky-div gap-4">
+            <img src={require("./assets/logos/github.png")} alt="github-logo" width="30" className="sticky-image" />
+            <img src={require("./assets/logos/linkedin.png")} alt="linkedin-logo" width="30" className="sticky-image" />
+            <img src={require("./assets/logos/facebook.png")} alt="facebook-logo" width="30" className="sticky-image" />
+          </div>
+        </div>
         <div className="hr-lines"></div>
         <h1 className="primary-color mb-4">Projects I've worked on.</h1>
-        <Projects />
+        <Projects id="projects" />
         <div className="hr-lines"></div>
-        {/* <h1 className="primary-color mb-4">Reach out.</h1> */}
-        <Footer />
+        <Footer id="footer" />
       </div>
       {/* <motion.div
         className={`cursor ${cursorVariant === "default" ? "" : "invert"}`}

@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
-const About = () => {
+const About = (item: { id: string }) => {
   return (
-    <div className="heading mb-5 mx-auto">
-      <div className="d-flex justify-content-between">
+    <div className="heading mb-5 mx-auto" id={item.id}>
+      <div className="d-flex justify-content-center">
         <div></div>
         <motion.div
           className="about-pic d-flex justify-content-center b-3"

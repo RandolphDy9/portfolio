@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import Capsules from "./Capsules";
 
-const Experiences = () => {
+const Experiences = (item: { id: string }) => {
   return (
-    <div className="heading my-5 mx-auto">
+    <div className="heading my-5 mx-auto" id={item.id}>
       <div className="row fs-6 my-5 content">
         <div className="col-12 col-sm-4 secondary-color">Aug 2018 - Present</div>
         <div className="col-12 col-sm-8 ">

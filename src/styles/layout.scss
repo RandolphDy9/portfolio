@@ -257,3 +257,10 @@
   max-width: 650px;
   margin: 0 auto;
 }
+
+.sticky-div {
+  position: sticky;
+  top: 30%;
+  align-self: flex-start;
+  padding: 10rem 0;
+}

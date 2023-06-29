@@ -5,9 +5,7 @@ const Navbar = () => {
       <div className="nav justify-content-center">
         <li className="nav-item pointer">
           <a className="nav-link">
-            {/* <span className="accent-color mx-2">{"<"} 01. </span> */}
             <span className="primary-color"><b>About</b></span>
-            {/* <span className="accent-color mx-2">{"/>"}</span> */}
           </a>
         </li>
         <li className="nav-item pointer">

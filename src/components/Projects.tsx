@@ -1,13 +1,25 @@
-const Projects = () => {
+const Projects = (item: { id: string }) => {
   return (
-    <div className="">
+    <div className="" id={item.id}>
       <div className="row primary-color text-center">
-        <div className="col-12 col-sm-4 my-4">1</div>
-        <div className="col-12 col-sm-4 my-4">2</div>
-        <div className="col-12 col-sm-4 my-4">3</div>
-        <div className="col-12 col-sm-4 my-4">4</div>
-        <div className="col-12 col-sm-4 my-4">5</div>
-        <div className="col-12 col-sm-4 my-4">6</div>
+        <div className="col-12 col-sm-4 my-3">
+          <img src={require("../assets/images/project1.jpg")} className="img-fluid" alt="project-1" />
+        </div>
+        <div className="col-12 col-sm-4 my-3">
+          <img src={require("../assets/images/project1.jpg")} className="img-fluid" alt="project-1" />
+        </div>
+        <div className="col-12 col-sm-4 my-3">
+          <img src={require("../assets/images/project1.jpg")} className="img-fluid" alt="project-1" />
+        </div>
+        <div className="col-12 col-sm-4 my-3">
+          <img src={require("../assets/images/project1.jpg")} className="img-fluid" alt="project-1" />
+        </div>
+        <div className="col-12 col-sm-4 my-3">
+          <img src={require("../assets/images/project1.jpg")} className="img-fluid" alt="project-1" />
+        </div>
+        <div className="col-12 col-sm-4 my-3">
+          <img src={require("../assets/images/project1.jpg")} className="img-fluid" alt="project-1" />
+        </div>
       </div>
     </div>
   )
