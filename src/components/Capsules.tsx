@@ -1,6 +1,6 @@
 const Capsules = ({ label }: any) => {
   return (
-    <div className="capsule p-2">
+    <div className="capsule py-1 px-2 mt-2 primary-color">
       { label }
     </div>
   )

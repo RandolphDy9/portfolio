@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
+import Reveal from './Reveal';
 
 const Jumbotron = () => {
 
@@ -28,16 +29,19 @@ const Jumbotron = () => {
             }}
           />
         </div>
-        <div className="secondary secondary-color">
-          I build digital experiences for the online world.
-        </div>
-        <div className="blur-background"></div>
-        <div className="description primary-color pt-1 pb-3">
-          I create the visual and interactive components of a website that users
-          see and interact with. This includes integrating the appropriate
-          frontend technologies and tools, and ensuring that the website is
-          responsive, accessible, and optimized for performance.
-        </div>
+        <Reveal>
+          <div className="secondary secondary-color">
+            I build digital experiences for the online world.
+          </div>
+        </Reveal>
+        <Reveal>
+          <div className="description primary-color pt-1 pb-3">
+            I create the visual and interactive components of a website that users
+            see and interact with. This includes integrating the appropriate
+            frontend technologies and tools, and ensuring that the website is
+            responsive, accessible, and optimized for performance.
+          </div>
+        </Reveal>
         <button className="btn-outline fs-5" onClick={() => window.open("https://www.dropbox.com/s/xakoe6rop7xc4aj/RandolphDy_resume.pdf?dl=0")}>
           Get in touch!
         </button>

@@ -246,11 +246,13 @@
 }
 
 .capsule {
-  padding: 4px 0;
+  margin: 0 2px;
+  border-radius: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   display: flex;
   align-items: center;
+  background-color: #64ffdb1e;
 }
 
 .contact {
@@ -260,7 +262,22 @@
 
 .sticky-div {
   position: sticky;
-  top: 30%;
+  top: 25%;
   align-self: flex-start;
   padding: 10rem 0;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+  margin-top: 5rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.sidebar-email {
+  &:hover {
+    color: #64ffda;
+  }
 }

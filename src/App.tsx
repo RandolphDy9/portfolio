@@ -49,15 +49,12 @@ function App() {
 
   const handleNavigationClick = (sectionId: string) => {
     const section = document.getElementById(sectionId);
-    section?.scrollIntoView({ behavior: 'smooth' });
-  }
+    section?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div className="app">
       <div className="page-container">
-        {/* <h1 onMouseEnter={textEnter} onMouseLeave={textLeave}>
-          WELCOME!
-        </h1> */}
         <Navbar />
         <Jumbotron />
         <div className="col-12 row">
@@ -70,9 +67,46 @@ function App() {
             <Experiences id="experiences" />
           </div>
           <div className="col-12 col-md-2 d-flex flex-column justify-content-center align-items-center sticky-div gap-4">
-            <img src={require("./assets/logos/github.png")} alt="github-logo" width="30" className="sticky-image" />
-            <img src={require("./assets/logos/linkedin.png")} alt="linkedin-logo" width="30" className="sticky-image" />
-            <img src={require("./assets/logos/facebook.png")} alt="facebook-logo" width="30" className="sticky-image" />
+            <motion.img
+              whileHover={{
+                scale: 1.2,
+                transition: { duration: 0.3 },
+              }}
+              src={require("./assets/logos/github.png")}
+              alt="github-logo"
+              width="30"
+              className="sticky-image pointer"
+            />
+            <motion.img
+              whileHover={{
+                scale: 1.2,
+                transition: { duration: 0.3 },
+              }}
+              src={require("./assets/logos/linkedin.png")}
+              alt="linkedin-logo"
+              width="25"
+              className="sticky-image pointer"
+            />
+            <motion.img
+              whileHover={{
+                scale: 1.2,
+                transition: { duration: 0.3 },
+              }}
+              src={require("./assets/logos/facebook.png")}
+              alt="facebook-logo"
+              width="30"
+              className="sticky-image pointer"
+            />
+            <div className="rotate-90 primary-color">
+              <small
+                className="sidebar-email pointer"
+                onClick={() =>
+                  (window.location.href = "mailto:mayson.dy@gmail.com")
+                }
+              >
+                mayson.dy@gmail.com
+              </small>
+            </div>
           </div>
         </div>
         <div className="hr-lines"></div>
