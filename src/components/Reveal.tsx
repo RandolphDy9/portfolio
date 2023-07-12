@@ -33,7 +33,7 @@ const Reveal = ({ children, width = "fit-content" }: Props) => {
       >
         { children }
       </motion.div>
-      <motion.div
+      {/* <motion.div
         variants={{
           hidden: { left: 0 },
           visible: { left: "100%" }
@@ -50,7 +50,7 @@ const Reveal = ({ children, width = "fit-content" }: Props) => {
           background: "#64ffda",
           zIndex: 20
         }}
-      />
+      /> */}
     </div>
   )
 }
