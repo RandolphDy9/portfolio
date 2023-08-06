@@ -8,7 +8,7 @@ const Experiences = (item: { id: string }) => {
       <div className="row fs-6 my-5 content">
         <div className="col-12 col-sm-4 secondary-color">Aug 2018 - Present</div>
         <div className="col-12 col-sm-8 ">
-          <Reveal>
+          <Reveal hasGreenBlock={true}>
             <motion.div whileHover={{ scale: 1.1, transformOrigin: "right", translateX: "10%" }} whileTap={{ scale: 0.9 }} className="fs-5 fw-semibold highlight accent-color">
               Exist Software Labs, Inc. <img src={require("../assets/images/external-link.png")} alt="arrow-pic" width="15" />
             </motion.div>
@@ -33,7 +33,7 @@ const Experiences = (item: { id: string }) => {
       <div className="row fs-6 my-5 content">
         <div className="col-12 col-sm-4 secondary-color">Aug 2022 - Present</div>
         <div className="col-12 col-sm-8">
-          <Reveal>
+          <Reveal hasGreenBlock={true}>
             <motion.div whileHover={{ scale: 1.1, transformOrigin: "right", translateX: "10%" }} whileTap={{ scale: 0.9 }} className="fs-5 fw-semibold highlight accent-color">
               Talino Venture Labs <img src={require("../assets/images/external-link.png")} alt="arrow-pic" width="15" />
             </motion.div>
@@ -58,7 +58,7 @@ const Experiences = (item: { id: string }) => {
       <div className="row fs-6 my-5 content">
         <div className="col-12 col-sm-4 secondary-color">June 2021 - Sep 2021</div>
         <div className="col-12 col-sm-8">
-          <Reveal>
+          <Reveal hasGreenBlock={true}>
             <motion.div whileHover={{ scale: 1.1, transformOrigin: "right", translateX: "10%" }} whileTap={{ scale: 0.9 }} className="fs-5 fw-semibold highlight accent-color">
               IT Creed <img src={require("../assets/images/external-link.png")} alt="arrow-pic" width="15" />
             </motion.div>
