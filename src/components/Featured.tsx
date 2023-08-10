@@ -16,7 +16,7 @@ const Featured = ({ id, reverse }: FeatureType) => {
           <div className="col-5">
             <div className="secondary-color">Featured Project</div>
             <div className="fs-2 fw-semibold highlight accent-color">
-              DigiTayo App 1
+              FunnelCone
             </div>
             <div className="primary-color fs-6">
               Development of responsive and reusable features for FunnelCone’s
