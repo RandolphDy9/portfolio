@@ -19,7 +19,7 @@ const Reveal = ({ children, width = "fit-content", hasGreenBlock }: Props) => {
       mainControls.start("visible");
       slideControls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControls, slideControls]);
 
   return (
     <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>

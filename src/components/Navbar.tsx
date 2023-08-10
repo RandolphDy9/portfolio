@@ -4,19 +4,19 @@ const Navbar = () => {
       <div></div>
       <div className="nav justify-content-center">
         <li className="nav-item pointer">
-          <a className="nav-link">
+          <a href="test" className="nav-link">
             <span className="primary-color"><b>About</b></span>
           </a>
         </li>
         <li className="nav-item pointer">
-          <a className="nav-link">
+          <a href="test" className="nav-link">
             {/* <span className="accent-color mx-2">{"<"} 02. </span> */}
             <span className="primary-color"><b>Experience</b></span>
             {/* <span className="accent-color mx-2">{"/>"}</span> */}
           </a>
         </li>
         <li className="nav-item pointer">
-          <a className="nav-link">
+          <a href="test" className="nav-link">
             {/* <span className="accent-color mx-2">{"<"} 03. </span> */}
             <span className="primary-color"><b>Contact</b></span>
             {/* <span className="accent-color mx-2">{"/>"}</span> */}

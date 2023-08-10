@@ -2,7 +2,6 @@ import "./styles/layout.scss";
 import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
@@ -48,10 +47,10 @@ function App() {
   // const textEnter = () => setCursorVariant("text");
   // const textLeave = () => setCursorVariant("default");
 
-  const handleNavigationClick = (sectionId: string) => {
-    const section = document.getElementById(sectionId);
-    section?.scrollIntoView({ behavior: "smooth" });
-  };
+  // const handleNavigationClick = (sectionId: string) => {
+  //   const section = document.getElementById(sectionId);
+  //   section?.scrollIntoView({ behavior: "smooth" });
+  // };
 
   return (
     <div className="app">
