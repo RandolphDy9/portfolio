@@ -111,10 +111,12 @@ function App() {
         </div>
         <div className="hr-lines"></div>
         <h1 className="primary-color mb-4">Projects I've worked on.</h1>
+        <br/>
         <Featured id="featured-1" reverse={true} />
+        <br/>
         <Featured id="featured-2" reverse={false} />
-
-        <h1 className="primary-color mb-4 text-center">More Projects</h1>
+        <br/>
+        <h1 className="primary-color my-4 text-center">More Projects</h1>
         <Projects id="projects" />
         <div className="hr-lines"></div>
         <Footer id="footer" />

@@ -12,7 +12,7 @@ const About = (item: { id: string }) => {
           whileTap={{ scale: 0.9 }}
         >
           <img
-            src={require("../assets/images/me.png")}
+            src={require("../assets/images/life2.jpeg")}
             alt="randolph"
             className="img img-fluid picture"
           />
